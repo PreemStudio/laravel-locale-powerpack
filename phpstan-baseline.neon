@@ -1,0 +1,11 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Method PreemStudio\\\\LocalePowerPack\\\\Http\\\\Middleware\\\\SetLocale\\:\\:handle\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Http/Middleware/SetLocale.php
+
+		-
+			message: "#^Parameter \\#1 \\$locale of static method Illuminate\\\\Support\\\\Facades\\\\App\\:\\:setLocale\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Http/Middleware/SetLocale.php
